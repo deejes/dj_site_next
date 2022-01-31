@@ -1,23 +1,27 @@
 import Head from 'next/head'
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
-
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Devansh Jain</title>
+        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Devansh Jain
+          Welcmnome to <a href="/about">Next.js!</a>
         </h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <a href="https">Next.js!</a>
+
+        <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p>
+
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
